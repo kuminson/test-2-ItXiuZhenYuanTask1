@@ -1,0 +1,16 @@
+.back_ground{
+	width: 360px;
+	overflow: hidden;
+	padding: 20px;
+	background-color: #666;
+}
+.elm{
+	margin: 10px;
+	width: 100px;	height: 100px;
+	border-radius: 10px;
+	background-color: orange;
+	float: left;
+}
+.elm:nth-child(3n+1){
+	clear: both;
+}
